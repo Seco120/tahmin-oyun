@@ -37,8 +37,8 @@ public class Main {
                         System.out.println("Tahmininiz uzak, Sayıyı arttırıp tekrar deneyiniz.");
                     } else if (veri < sayi - 5) {
                         System.out.println("Tahmininiz yakın, Sayıyı biraz arttırıp tekrar deneyiniz.");
-                    } else if (veri < sayi) {
-                        System.out.println("Tahmininiz çok yakın, Sayıyı biraz arttırıp tekrar deneyiniz.");
+                    } else if (veri <= sayi-1) {
+                        System.out.println("Tahmininiz çok yakı, Sayıyı biraz arttırıp tekrar deneyiniz.");
                     }
                 }
             }
