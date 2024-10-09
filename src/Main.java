@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Oyuna başlamak için lütfen adınızı giriniz:");
         String ad = input.nextLine();
-        System.out.println("Merhaba " + ad + ", toplam " + hak + " hakkınız var. Lütfen tahmin ettiğiniz sayıyı giriniz: ");
+        System.out.println("Merhaba " + ad + " toplam " + hak + " hakkınız var. Lütfen tahmin ettiğiniz sayıyı giriniz: ");
 
         while (hak > 0) {
             int veri = input.nextInt();
